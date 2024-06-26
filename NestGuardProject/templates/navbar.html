@@ -1,0 +1,40 @@
+{% load static %}
+
+<header id="header">
+ 
+  <!--  Brand Logo  -->
+    <a class="nav-brand" href="#">
+      <div class="imagem-logo">
+        <img src="{{ dadosEmpresa.0.logoNavbarEscuro.url }}" alt="LOGO" class="img_LOGO">
+      </div>
+    </a>
+    
+    <!--  Toggle Menu for Mobile  -->
+    
+    <input type="checkbox" id="toggle-menu" role="button">
+    <label for="toggle-menu" class="toggle-menu">Menu</label>
+    
+    <!--  Menus  -->
+    <nav id="nav-bar" class="navbar">
+      <ul class="menu">
+        <div class="bordaText-Nav"''></div>
+          <li><a class="nav-link" href="#featured">Home</a></li>
+        </div>
+        <div class="bordaText-Nav"></div>
+        <li><a class="nav-link" href="#collections">Assinaturas</a></li>
+      </div>
+        <div class="bordaText-Nav"></div>
+        <li><a class="nav-link" href="#about">Sobre</a></li>
+      </div>
+        <div class="bordaText-Nav"></div>
+        <li><a class="nav-link" href="#contact">Contato</a></li>
+      </div>
+      </ul>
+      <ul class="social-menu">
+        <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+      </ul>
+    </nav>
+  </header>
